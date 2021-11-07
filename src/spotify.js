@@ -4,13 +4,7 @@ const redirectUri = "https://spotify-clone-byruhaim.netlify.app/callback/";
 
 const clientId = "99c6654acfca42ee960dfa70044dea1c";
 
-const scopes = [
-    "user-read-currently-playing",
-    "user-read-recently-played",
-    "user-read-playback-state",
-    "user-top-read",
-    "user-modify-playback-state",
-];
+const scopes = ["user-read-recently-played","user-read-currently-playing","user-read-playback-state","user-top-read","user-modify-playback-state","user-read-email","user-read-private","streaming"];
 
 export const getTokenFromUrl = () => {
     return window.location.hash
