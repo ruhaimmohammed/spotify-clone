@@ -19,8 +19,8 @@ function Footer() {
                     alt="" 
                 />
                 <div className="footer__songInfo">
-                    <h4>Yeah!</h4>
-                    <p>Usher</p>
+                    <h4>On My Way</h4>
+                    <p>Alan Walker</p>
                 </div>
             </div>
             <div className="footer__center">
