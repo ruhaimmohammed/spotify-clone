@@ -63,10 +63,7 @@
         height: 45px;
     }
     .footer__left{
-        flex: 0.9;
-    }
-    .footer__center{
-        flex: 0.1;
+        flex: 1;
     }
     .footer__right{
         display: none;
