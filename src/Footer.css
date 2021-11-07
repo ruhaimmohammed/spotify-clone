@@ -63,9 +63,11 @@
         height: 45px;
     }
     .footer__left{
-        flex: 1;
+        flex: 0.6;
     }
-    .footer__center,
+    .footer__center{
+        flex: 0.4;
+    }
     .footer__right{
         display: none;
     }
