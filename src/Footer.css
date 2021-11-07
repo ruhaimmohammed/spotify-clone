@@ -57,3 +57,16 @@
 .footer__right * .MuiSlider-root{
     color: green;
 }
+
+@media(max-width:900px){
+    .footer{
+        height: 45px;
+    }
+    .footer__left{
+        flex: 1;
+    }
+    .footer__center,
+    .footer__right{
+        display: none;
+    }
+}

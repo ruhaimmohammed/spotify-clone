@@ -56,3 +56,26 @@
 .body__infoText > p{
     font-size: 14px;
 }
+
+@media(max-width:900px){
+    .body{
+        flex: 1;
+    }
+    .body__info{
+        flex-direction: column;
+        align-items: center;
+    }
+    .body__info > img{
+        height: 35vw;
+    }
+}
+
+@media(max-width:560px){
+    .body__infoText > h2{
+        font-size: 40px;
+        margin-bottom: 0;
+    }
+    .body__infoText{
+        margin-top: 13px;
+    }
+}
