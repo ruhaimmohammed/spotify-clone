@@ -63,10 +63,10 @@
         height: 45px;
     }
     .footer__left{
-        flex: 0.6;
+        flex: 0.9;
     }
     .footer__center{
-        flex: 0.4;
+        flex: 0.1;
     }
     .footer__right{
         display: none;
